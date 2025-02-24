@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!--Logo 2: Upward Growth (Centered)-->
+  <g transform="translate(200, 300)">
+    <path d="M0 150 L50 100 L100 150 L150 100 L200 150" fill="none" stroke="#8E44AD" stroke-width="10"/>
+    <text x="100" y="50" text-anchor="middle" fill="#8E44AD" font-size="22" font-weight="bold">WeApplyNow</text>
+    <circle cx="100" cy="150" r="15" fill="#8E44AD"/>
+  </g>
+</svg>
