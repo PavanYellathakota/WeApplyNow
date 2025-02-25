@@ -27,8 +27,14 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+    <!-- Modernizr (Only if needed) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/3.12.0/modernizr.min.js"></script>
+
+
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <!-- 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+     -->
 
 </head>
 <body data-spy="scroll" data-target="#navbar" class="static-layout">
@@ -334,7 +340,36 @@
     </div>
  </footer>
  
+
+<!-- Load jQuery First (HTTPS) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- External Libraries -->
+<script src="resources/bootstrap/popper.min.js"></script>
+<script src="resources/bootstrap/bootstrap.min.js"></script>
+<script src="resources/select2/select2.min.js"></script>
+<script src="resources/owlcarousel/owl.carousel.min.js"></script>
+<script src="resources/stellar/jquery.stellar.js"></script>
+<script src="resources/isotope/isotope.min.js"></script>
+<script src="resources/lightcase/lightcase.js"></script>
+<script src="resources/waypoints/waypoint.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- Main App JS -->
+<script src="js/app.min.js"></script>
+
+<!-- Only load livereload.js in local development -->
+<script>
+  if (window.location.hostname === "localhost") {
+    document.write('<script src="//localhost:35729/livereload.js"><\/script>');
+  }
+</script>
+<!-- End of livereload.js -->
+
+
+
  <!-- External JS -->
+ <!-- 
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
  <script src="resources/bootstrap/popper.min.js"></script>
  <script src="resources/bootstrap/bootstrap.min.js"></script>
@@ -345,9 +380,11 @@
  <script src="resources/lightcase/lightcase.js"></script>
  <script src="resources/waypoints/waypoint.min.js"></script>
  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
- 
+-->
  <!-- Main JS -->
+<!-- 
  <script src="js/app.min.js "></script>
  <script src="//localhost:35729/livereload.js"></script>
+-->
  </body>
  </html>
